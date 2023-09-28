@@ -27,6 +27,7 @@ export default function App() {
             justifyContent: "space-between",
             alignSelf: "center",
             margin: 20,
+            width: "80%",
           }}
         >
           <MyButton
@@ -49,7 +50,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     // backgroundColor: "green",
-    alignItems: "center",
-    justifyContent: "center",
+    // alignItems: "center",
+    // justifyContent: "center",
   },
 });
